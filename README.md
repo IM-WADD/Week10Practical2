@@ -155,8 +155,9 @@ In PDM1 and 2, we gave you a template to work with. This section will explain ho
 
 #### Setup
 1.	Create a new basic HTML page and linked CSS and JS files.
-2.	Go to [https://p5js.org/download/](https://p5js.org/download/), scroll down to the "Single Files" section and look for the CDN button.
-3.	Click the CDN button. This will take you to a new page. Under the Version dropdown menu, you will see several URLs. You want the first one, which ends in min.js. Click the icon that looks a like an empty HTML element: `</>` . This will add to your clipboard a complete `<script>` element with the `src` already populated. Paste this into your HTML file at the end of `<body>` but above the `<script>` element that links your own JS file.
+2.	Go to [https://p5js.org/download/](https://p5js.org/download/), scroll down to the "Single Files" section and look for the CDN section.
+3.	Click the copy icon next to the URL in the CDN section. You will add this URL as the src attribute of a stript tag in your HTML.
+4.	In your HTML file, create a `<script>` element above the `<script>` element that links your own JS file. Its src attribute should be the URL you copied in the previous step.
 
 #### Create a basic sketch
 The following steps are the same as the official [Getting Started tutorial](https://p5js.org/get-started/) but they have been adapted for use in VS Code rather than the p5js web editor.
