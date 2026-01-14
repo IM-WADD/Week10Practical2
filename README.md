@@ -40,7 +40,7 @@ Add animation to your canvas drawing. For example, you could:
 ## Stage 2
 The canvas is most useful for creating animations rather than static drawings. For this reason, this stage focuses on animating the canvas and working with user input while the drawings themselves are kept quite simple. 
 
-To practice animation with the canvas, you will create a simplified version of [Snake](https://www.mathsisfun.com/games/snake.html). There is a video of the completed game in the practical materials. There are LOTS of Snake implementation tutorials available online, but they generally tell you exactly what code to use, which is not always a great way to learn. The following exercises provide guidance but require you to actively apply your knowledge from this module and your previous modules.
+To practice animation with the canvas, you will create a simplified version of [Snake](https://www.mathsisfun.com/games/snake.html). There is a video of the completed game in the practical materials. There are LOTS of Snake implementation tutorials available online, but they generally tell you exactly what code to use, which is not always a great way to learn. The following exercises provide guidance but require you to actively apply your knowledge from this module and your previous modules. If you completed the Snake project in PDM 1, this exercise will highlight the differences between pure canvas animation and use of the p5.js library.
 
 ### 2.1: Draw and animate a basic snake
 As with the previous exercises, create an HTML, CSS, and JS file and link the CSS and JS to your HTML. You will use these files for the rest of the exercises in this stage.
