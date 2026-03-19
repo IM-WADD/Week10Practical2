@@ -1,4 +1,4 @@
-# Week 9 Practical 2: The HTML5 Canvas and Libraries
+# Week 10 Practical 2: The HTML5 Canvas and Libraries
 Treat this practical as a choose-your-own-adventure depending on your interests and your goals for the assessment. Pick what is most interesting / useful to you rather than trying to do all of it. 
 
 Contents:
