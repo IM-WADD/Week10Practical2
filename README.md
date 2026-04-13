@@ -222,13 +222,13 @@ If you would like to use it without dealing with Vite, follow the steps below to
 <script type="importmap">
     {
         "imports": {
-            "three": "https://cdn.jsdelivr.net/npm/three@0.174.0/build/three.module.js",
-            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.174.0/examples/jsm/"
+            "three": "https://cdn.jsdelivr.net/npm/three@0.183.2/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/"
         }
     }
 </script>
 ```
-This `<script>` element contains a JSON object that enables ThreeJS and common "addons" to be imported in your JavaScript file from CDN links. Notice that the values of the two properies that specify URLs contain "@0.174.0". This specifies the version of ThreeJS to import. 0.174.0 is the current version at the time of writing. You should change this value if you would like to use a different version.
+This `<script>` element contains a JSON object that enables ThreeJS and common "addons" to be imported in your JavaScript file from CDN links. Notice that the values of the two properies that specify URLs contain "@0.183.2". This specifies the version of ThreeJS to import. 0.183.2 is the current version at the time of writing. You should change this value if you would like to use a different version.
 
 No matter which installation approach you took, ThreeJS is now ready for use. Try following the [Create a Scene](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene) tutorial in the ThreeJS docs to learn the basic concepts. The completed code is available in the sample solution for this practical, which is already available in the Lecture-Examples repo. Look for the threejsBasicSetup folder.
 
